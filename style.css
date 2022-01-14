@@ -1,0 +1,214 @@
+body{
+background-image: url(https://styles.redditmedia.com/t5_3f3ue/styles/communityIcon_i65kd6u9vlo61.png);
+background-repeat: no-repeat;
+aspect-ratio: 577/577;
+background-size:cover;
+background-position: center;
+background-color:darkblue;
+
+
+
+
+
+}
+
+
+
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-image:linear-gradient(blue,white);
+  width: 100%;
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration-line: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  text-decoration: underline;
+  color:blue;
+}
+
+
+h1{
+  margin-top:7%;
+  text-align: center;
+  font-size: 5vh 5vw;
+  color:white;
+  text-shadow:blue 1px 1px 1px;
+  margin-bottom:10%;
+  display: none;
+  }
+
+
+@media screen and (max-width: 600px) {
+  nav {
+
+    display:none;
+    
+  }
+  h1 {
+
+
+ display: contents;
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li{
+
+padding-left:10%;
+list-style-type: none;
+display:inline-block;
+text-decoration:none;
+}
+
+div.berg {
+
+font-size:30px;
+text-decoration: none;
+
+}
+
+.berg ul {
+
+margin-bottom:20%;
+align-self:center;
+text-align: center;
+font-family: 'Fascinate', cursive;
+
+
+}
+
+.berg ul li:hover {
+
+color:white;
+text-transform:uppercase;
+text-align:center;
+
+
+}
+
+
+
+#surface {
+
+text-shadow:blue 1px 1px 1px;
+
+
+}
+
+
+
+
+
+#sw {
+
+
+text-shadow:greenyellow 1px 1px 1px;
+
+}
+
+#td {
+
+text-shadow:purple 1px 1px 1px;
+}
+
+
+
+#tddd {
+
+text-shadow:red 1px 1px 1px;
+
+
+}
+
+
+form {
+  margin:50%;
+  text-align: center;
+  width:fit-content;
+  background-color:salmon;
+
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  input,select,textarea {
+  
+  margin:10px;
+
+}
+
+.lil-guy {
+
+text-align:center;
+color:white;
+font-size:1000;
+
+
+;
+
+
+}
+
+div.lil-guy {
+  margin-top: 30%;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation-name: animation;
+  animation-duration: 2s;
+}
+
+@keyframes animation {
+  0%   {background-color:red; left:0px; top:0px;}
+  50%  {background-color:blue ; left:200px; top:0px;}
+  100%  {background-color:purple ; left:500px; top:200px;}
+  
+}
+
+.mk2 {
+
+text-align:center;
+font-size:50%;
+background-color: black;
+}
